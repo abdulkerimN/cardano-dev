@@ -15,23 +15,23 @@ validator placeholder {
     _utxo: OutputReference,
     _self: Transaction,
   ) {
-    True 
+    True
   }
 
   withdraw(_redeemer: Data, _account: Credential, _self: Transaction) {
-    True 
+    True
   }
 
   publish(_redeemer: Data, _certificate: Certificate, _self: Transaction) {
-    True 
+    True
   }
 
   vote(_redeemer: Data, _voter: Voter, _self: Transaction) {
-    True 
+    True
   }
 
   propose(_redeemer: Data, _proposal: ProposalProcedure, _self: Transaction) {
-    True 
+    True
   }
 
   // // If needs be, remove any of unneeded handlers above, and use:
